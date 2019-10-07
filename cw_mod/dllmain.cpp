@@ -11,7 +11,7 @@ int serverAccessState = 0;
 bool P2PRequestLogging = false;
 bool blacklisting = false;
 
-float GetMilliseconds(int hour, int minute) {
+int GetMilliseconds(int hour, int minute) {
     return (hour * 60 * 60 * 1000) + (minute * 60 * 1000);
 }
 
